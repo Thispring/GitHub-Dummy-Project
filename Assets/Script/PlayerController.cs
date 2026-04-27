@@ -4,7 +4,7 @@ using UnityEngine;
 
 // Player의 행동을 제어하는 클래스 입니다.
 public class PlayerController : MonoBehaviour
-{
+{ 
     private PlayerStats playerStats;
 
     private void Move()
