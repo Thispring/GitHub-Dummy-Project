@@ -1,31 +1,18 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 // Player의 상태를 나타내는 클래스 입니다.
 public class PlayerStats : MonoBehaviour
 {
-    [SerializeField] private float speed;
+    [Header("플레이어 이동속도")]
+    [SerializeField] private float speed = 5f;
     public float Speed => speed;
-    [SerializeField] private float jumpVelocity;
+    
+    [Header("플레이어 점프력")]
+    [SerializeField] private float jumpVelocity = 2f;
     public float JumpVelocity => jumpVelocity;
 
+    [Header("플레이어 투사체")]
+    [SerializeField] private GameObject projectTile = null;
+    public GameObject ProjectTile => projectTile;
 
-    void Awake()
-    {
-        speed = 10f;
-        jumpVelocity = 5f;
-    }
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
