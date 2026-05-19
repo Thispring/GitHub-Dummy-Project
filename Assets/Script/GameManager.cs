@@ -10,7 +10,7 @@ public class GameManager : MonoBehaviour
     {
         if (wall != null && wall.IsDestroyed && Input.GetKeyDown(KeyCode.M))
         {
-            wall.Restore();
+            //wall.Restore();
         }
     }
 }
