@@ -18,7 +18,7 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         Move();
-        if (Input.GetKeyDown(KeyCode.Space)) Jump();
+        //if (Input.GetKeyDown(KeyCode.Space)) Jump();
         if (Input.GetKeyDown(KeyCode.P)) SpawnProjectile();
     }
 
