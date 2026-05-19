@@ -19,7 +19,7 @@ public class PlayerController : MonoBehaviour
     {
         Move();
         //if (Input.GetKeyDown(KeyCode.Space)) Jump();
-        if (Input.GetKeyDown(KeyCode.P)) SpawnProjectile();
+        ///if (Input.GetKeyDown(KeyCode.P)) SpawnProjectile();
     }
 
     private void Move()
